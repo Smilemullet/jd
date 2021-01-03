@@ -7,6 +7,7 @@
     height: 110px;
     background: url(//misc.360buyimg.com/user/reg/3.0.0/css/i/headbg.jpg) repeat-x left bottom;
     background: pink;
+    border-bottom: 1px solid #000;
 }
 
 #header-logo {
@@ -21,7 +22,7 @@
     height: 50px;
     float: left;
     margin-top: 24px;
-    background: url(../image/2.png) no-repeat;
+    background: url(../image/1.png) no-repeat;
 }
 
 #logo-title {
@@ -43,4 +44,81 @@
 #have-account a {
     color: #e22;
     text-decoration: none;
+}
+
+
+/* main */
+
+#main {
+    width: 1210px;
+    height: 406px;
+    margin: 0 auto;
+    background: blue;
+    margin-top: 150px;
+}
+
+#phone-number,
+#yz,
+#next {
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    margin: 0 auto 20px;
+    text-align: center;
+    line-height: 52px;
+}
+
+#next {
+    background: red;
+    color: #ffffff;
+}
+
+#different {
+    display: flex;
+    justify-content: space-between;
+    width: 398px;
+    height: 52px;
+    margin: 0 auto 20px;
+}
+
+
+/*footer  */
+
+#links {
+    width: 1210px;
+    height: 66px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+
+#links a {
+    text-decoration: none;
+}
+
+#cp {
+    width: 1210px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* feedback */
+
+#feedback {
+    display: block;
+    width: 33px;
+    height: 135px;
+    background: url(../image/2.png) no-repeat;
+    background-position: -367px 0;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+}
+
+#feedback:hover {
+    background-position: -334px 0px;
 }
