@@ -6,7 +6,7 @@
 #header {
     height: 110px;
     background: url(//misc.360buyimg.com/user/reg/3.0.0/css/i/headbg.jpg) repeat-x left bottom;
-    background: pink;
+    /* background: pink; */
     border-bottom: 1px solid #000;
 }
 
@@ -14,7 +14,7 @@
     height: 75px;
     width: 1210px;
     margin: 0 auto;
-    background: orange;
+    /* background: orange; */
 }
 
 #logo {
@@ -53,13 +53,11 @@
     width: 1210px;
     height: 406px;
     margin: 0 auto;
-    background: blue;
+    /* background: blue; */
     margin-top: 150px;
 }
 
-#phone-number,
-#yz,
-#next {
+#phone-number {
     border: solid 1px #ddd;
     width: 398px;
     height: 52px;
@@ -68,9 +66,44 @@
     line-height: 52px;
 }
 
-#next {
+#tsxx {
+    margin-left: 400px;
+}
+
+#next,
+#yz {
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    margin: 0 auto 20px;
+    text-align: center;
+    line-height: 52px;
+    display: block;
+}
+
+#phone-number {
+    display: flex;
+    justify-content: start;
+}
+
+#phone-number div {
+    width: 80px;
+    height: 52px;
+    border-right: 1px solid;
+    text-align: center;
+    line-height: 52px;
+}
+
+#phone-number input {
+    width: 318px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p #next {
     background: red;
     color: #ffffff;
+    text-align: center;
 }
 
 #different {
