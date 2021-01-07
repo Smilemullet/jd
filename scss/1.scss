@@ -1,0 +1,4 @@
+$px: 100px 200px;
+.box {
+    width: nth($px, 1)
+}
